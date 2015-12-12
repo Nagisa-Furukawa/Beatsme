@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+#name{
+	color: gold;
+	text-size: 20px;
+	font-family: Lato;
+}
+
+.rules{
+	color: gold;
+	font-family: Lato;
+}
+
+/*.avatar{
+	float: center;
+	resize: 100px;
+	position: relative;
+}
+
+.gt{
+	float: center;
+	position: relative;
+}*/
+
+body{
+	background-color: black;
+}
