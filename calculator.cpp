@@ -19,7 +19,7 @@ int GetMathematicalOperator()
 {
 	std::cout << "Please enter in the operator you want( 1. = +, 2 = -, 3 = *, 4 = / ): " << std::endl;
 
-	int n0perator;
+	char n0perator;
 	std::cin >> n0perator;
 
 	//is hard
@@ -30,13 +30,13 @@ int GetMathematicalOperator()
 int CalculateResult(int nX, int n0perator, int nY)
 {
 	//calculating what they entered into userinput() and mathematicaloperator()
-	if(n0perator == 1)
+	if(n0perator == '+')
 		return nX + nY;
-	if(n0perator == 2)
+	if(n0perator == '-')
 		return nX - nY;
-	if(n0perator == 3)
+	if(n0perator == '*')
 		return nX * nY;
-	if(n0perator == 4)
+	if(n0perator == '/')
 		return nX / nY;
 	return 0;
 }
